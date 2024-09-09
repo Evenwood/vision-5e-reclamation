@@ -58,11 +58,11 @@
       }
     ]
   },
-  "url": "https://github.com/Evenwood/vision-5e",
-  "manifest": "https://github.com/Evenwood/vision-5e/releases/latest/download/module.json",
-  "download": "https://github.com/Evenwood/vision-5e/releases/download/v1.0.1/module.zip",
-  "changelog": "https://github.com/Evenwood/vision-5e/releases/tag/v1.0.1",
-  "bugs": "https://github.com/Evenwood/vision-5e/issues",
-  "readme": "https://raw.githubusercontent.com/Evenwood/vision-5e/main/README.md",
-  "license": "https://raw.githubusercontent.com/Evenwood/vision-5e/main/LICENSE"
+  "url": "https://github.com/Evenwood/vision-5e-reclamation",
+  "manifest": "https://github.com/Evenwood/vision-5e-reclamation/releases/latest/download/module.json",
+  "download": "https://github.com/Evenwood/vision-5e-reclamation/releases/download/v1.0.2/module.zip",
+  "changelog": "https://github.com/Evenwood/vision-5e-reclamation/releases/tag/v1.0.2",
+  "bugs": "https://github.com/Evenwood/vision-5e-reclamation/issues",
+  "readme": "https://raw.githubusercontent.com/Evenwood/vision-5e-reclamation/main/README.md",
+  "license": "https://raw.githubusercontent.com/Evenwood/vision-5e-reclamation/main/LICENSE"
 }
