@@ -9,6 +9,7 @@ import DetectionModeBlindsense from "./detection-modes/blindsense.mjs";
 import DetectionModeBlindsight from "./detection-modes/blindsight.mjs";
 import DetectionModeBloodSense from "./detection-modes/blood-sense.mjs";
 import DetectionModeDarkvision from "./detection-modes/darkvision.mjs";
+import DetectionModeDeathSense from "./detection-modes/death-sense.mjs";
 import DetectionModeDetectEvilAndGood from "./detection-modes/detect-evil-and-good.mjs";
 import DetectionModeDetectMagic from "./detection-modes/detect-magic.mjs";
 import DetectionModeDetectPoisonAndDisease from "./detection-modes/detect-poison-and-disease.mjs";
@@ -57,6 +58,7 @@ Hooks.once("init", () => {
     CONFIG.specialStatusEffects.BLIND_SENSES = "blindSenses";
     CONFIG.specialStatusEffects.BLINDED = "blinded";
     CONFIG.specialStatusEffects.BURROWING = "burrowing";
+    CONFIG.specialStatusEffects.DEAD = "dead";
     CONFIG.specialStatusEffects.DEAFENED = "deafened";
     CONFIG.specialStatusEffects.DEVILS_SIGHT = "devilsSight";
     CONFIG.specialStatusEffects.DISEASED = "diseased";
@@ -77,6 +79,7 @@ Hooks.once("init", () => {
     CONFIG.specialStatusEffects.REVENANCE = "revenance";
     CONFIG.specialStatusEffects.SHAPECHANGER = "shapechanger";
     CONFIG.specialStatusEffects.SLEEPING = "sleeping";
+    CONFIG.specialStatusEffects.STABLE = "stable";
     CONFIG.specialStatusEffects.THINKING = "thinking";
     CONFIG.specialStatusEffects.UMBRAL_SIGHT = "umbralSight";
     CONFIG.specialStatusEffects.UNCONSCIOUS = "unconscious";
@@ -95,6 +98,7 @@ Hooks.once("init", () => {
         DetectionModeBlindsight,
         DetectionModeBloodSense,
         DetectionModeDarkvision,
+        DetectionModeDeathSense,
         DetectionModeDetectEvilAndGood,
         DetectionModeDetectMagic,
         DetectionModeDetectPoisonAndDisease,

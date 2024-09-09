@@ -1,14 +1,14 @@
 import DetectionModeDetect from "./detect.mjs";
 
 /**
- * The detection mode for Detect Evil and Good.
+ * The detection mode for Death Sense.
  */
-export default class DetectionModeDetectEvilAndGood extends DetectionModeDetect {
+export default class DetectionModeDeathSense extends DetectionModeDetect {
 
     constructor() {
         super({
-            id: "detectEvilAndGood",
-            label: "VISION5E.DetectEvilAndGood"
+            id: "deathSense",
+            label: "VISION5E.DeathSense"
         });
     }
 
@@ -21,10 +21,9 @@ export default class DetectionModeDetectEvilAndGood extends DetectionModeDetect 
 
     /** @override */
     _canDetect(visionSource, target) {
-        if (!super._canDetect(visionSource, target)) {
-            return false;
-        }
+        const source = visionSource.object;
 
+        
         if (!target.actor.system.details?.type
             || target.document.hasStatusEffect(CONFIG.specialStatusEffects.OBJECT)
             || target.document.hasStatusEffect(CONFIG.specialStatusEffects.PETRIFIED)) {
